@@ -1,0 +1,14 @@
+{
+  "options.bedrockcoordinates.show_coordinates": "Show Coordinates",
+
+  "hud.coordinates.position": "Position: %s, %s, %s",
+
+  "key.categories.bedrockcoordinates.keybinds": "Bedrock Coordinates",
+  "key.bedrockcoordinates.toggle_mode": "Toggle Coordinate Mode",
+
+  "bedrockcoordinates.toast.title": "Bedrock Coordinates",
+
+  "bedrockcoordinates.mode.block": "Block",
+  "bedrockcoordinates.mode.xyz": "XYZ",
+  "bedrockcoordinates.mode_switched": "Coordinates: %s"
+}

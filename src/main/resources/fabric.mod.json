@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "bedrockcoordinates",
+  "version": "${version}",
+  "name": "BedrockCoordinates",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/bedrockcoordinates/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.mubioh.bedrockcoordinates.client.BedrockCoordinatesClient"
+    ],
+    "main": [
+      "me.mubioh.bedrockcoordinates.BedrockCoordinates"
+    ]
+  },
+  "mixins": [
+    "bedrockcoordinates.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

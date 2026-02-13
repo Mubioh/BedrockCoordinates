@@ -1,0 +1,4 @@
+/tp Player661 -158.521 ~ -28.613
+/effect give @p minecraft:night_vision 100
+/effect give @p minecraft:night_vision 100 1 true
+/tp 0 500 0
